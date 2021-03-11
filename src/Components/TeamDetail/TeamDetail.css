@@ -1,0 +1,70 @@
+.team-detail {
+  background-color: #222831;
+  padding: 30px 0px;
+}
+.team-hr-card {
+  background-color: #00adb5;
+  color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+.team-hr-card h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.team-hr-card p {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+.hr-card-img {
+  width: 100%;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .hr-card-img {
+    margin-top: 20px;
+  }
+}
+.hr-card-logo {
+  width: 30px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.team-d-texts {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #c6c6c6;
+}
+.icon-box {
+  color: white;
+}
+
+.icon-box svg {
+  font-size: 30px;
+  color: #ffffff;
+}
+.icon-box .fa-facebook-f {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #097eeb;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+.icon-box .fa-youtube {
+  background-color: #ff0000;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+.icon-box .fa-twitter {
+  background-color: #1da1f2;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}

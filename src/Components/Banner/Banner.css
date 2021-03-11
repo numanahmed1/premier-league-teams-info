@@ -1,0 +1,26 @@
+.banner {
+  background-position: center center;
+  background-size: cover;
+  height: 362px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #00adb5;
+}
+.bg-overlay {
+  position: absolute;
+  height: 100%;
+  background-color: rgb(0 0 0 / 50%);
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.banner h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  z-index: 2;
+  text-align: center;
+}
