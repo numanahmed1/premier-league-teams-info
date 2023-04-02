@@ -16,7 +16,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <Banner text="Premier League Teams Info App" bg={staticBg} />
+      <Banner text="Premier League Teams(AN) Info App" bg={staticBg} />
       <div className="teams-container">
         <Container>
           <Row>
